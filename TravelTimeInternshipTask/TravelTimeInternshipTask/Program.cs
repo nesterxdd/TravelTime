@@ -8,12 +8,25 @@ namespace TravelTimeInternshipTask
     {
         static void Main(string[] args)
         {
+
+            string regionsFile = null;
+            string locationsFile = null;
+            string outputFile = null;
+
+            foreach (var arg in args)
+            {
+                if (arg.StartsWith("--regions="))
+                    regionsFile = arg.Substring("--regions=".Length);
+                else if (arg.StartsWith("--locations="))
+                    locationsFile = arg.Substring("--locations=".Length);
+                else if (arg.StartsWith("--output="))
+                    outputFile = arg.Substring("--output=".Length);
+            }
+
             List<Region> regions = new List<Region>();
             List<Location> locations = new List<Location>();
-            string locationJson = "locations.json";
-            string regionsJson = "regions.json";
 
-            IOUtils.ReadFromJson(locationJson, regionsJson, ref regions, ref locations);
+            IOUtils.ReadFromJson(locationsFile, regionsFile, ref regions, ref locations);
             List<RegionWithLocations> regionsWithLocation = GetRegionsWithLocations(regions, locations);
             IOUtils.WriteToJson("output.json", regionsWithLocation);
 
@@ -25,13 +38,13 @@ namespace TravelTimeInternshipTask
             List<RegionWithLocations> result = new List<RegionWithLocations>();
             foreach (Region region in regions)
             {
-                foreach(Location location in locations)
+                foreach (Location location in locations)
                 {
                     if (region.IsInRegion(location))
                     {
                         region.AddLocation(location);
-                        RegionWithLocations existed = result.FirstOrDefault(r => r.Region == region.Name);
-                        if(existed != null)
+                        RegionWithLocations? existed = result.FirstOrDefault(r => r.Region == region.Name);
+                        if (existed != null)
                         {
                             existed.MatchedLocations.Add(location.Name);
                         }
@@ -42,7 +55,7 @@ namespace TravelTimeInternshipTask
                             temp.MatchedLocations.Add(location.Name);
                             result.Add(temp);
                         }
-                      
+
                     }
                 }
             }

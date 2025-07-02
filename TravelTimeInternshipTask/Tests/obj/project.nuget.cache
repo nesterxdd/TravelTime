@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iEH8ROfqnA4=",
+  "dgSpecHash": "v4O8L67pvrA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P-Mac\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\P-Mac\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
