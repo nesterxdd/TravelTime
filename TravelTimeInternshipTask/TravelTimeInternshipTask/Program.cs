@@ -23,12 +23,29 @@ namespace TravelTimeInternshipTask
                     outputFile = arg.Substring("--output=".Length);
             }
 
-            List<Region> regions = new List<Region>();
-            List<Location> locations = new List<Location>();
 
-            IOUtils.ReadFromJson(locationsFile, regionsFile, ref regions, ref locations);
-            List<RegionWithLocations> regionsWithLocation = GetRegionsWithLocations(regions, locations);
-            IOUtils.WriteToJson("output.json", regionsWithLocation);
+            if (string.IsNullOrEmpty(regionsFile) || string.IsNullOrEmpty(locationsFile) || string.IsNullOrEmpty(outputFile))
+            {
+                Console.WriteLine("Error: Please provide all --regions, --locations and --output parameters");
+                Console.WriteLine("Usage: dotnet run --regions=regions.json --locations=locations.json --output=output.json");
+                return;
+            }
+
+            try
+            {
+                List<Region> regions = new List<Region>();
+                List<Location> locations = new List<Location>();
+
+                IOUtils.ReadFromJson(locationsFile, regionsFile, ref regions, ref locations);
+                List<RegionWithLocations> regionsWithLocation = GetRegionsWithLocations(regions, locations);
+                IOUtils.WriteToJson(outputFile, regionsWithLocation);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Unexpected error: {ex.Message}");
+            }
+
+          
 
 
         }

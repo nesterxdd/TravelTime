@@ -45,7 +45,7 @@ namespace TravelTimeInternshipTask.Models
             for (int i = 0; i < Coordinates.Count; i++)
             {
                 int intersectCount = 0;
-                for (int j = 0; j < Coordinates[i].Count - 1; j++)
+                for (int j = 0; j < Coordinates[i].Count ; j++)
                 {
                     List<double> c1 = Coordinates[i][j];
                     List<double> c2 = Coordinates[i][(j+1) % Coordinates[i].Count];
