@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\Tests.csproj": {}
+    "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\Tests.csproj": {
+    "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\P-Mac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P-Mac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj": {
-                "projectPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj"
+              "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj": {
+                "projectPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj": {
+    "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
+        "projectUniqueName": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
         "projectName": "TravelTimeInternshipTask",
-        "projectPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
+        "projectPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
         "packagesPath": "C:\\Users\\P-Mac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\obj\\",
+        "outputPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\P-Mac\\AppData\\Roaming\\NuGet\\NuGet.Config",

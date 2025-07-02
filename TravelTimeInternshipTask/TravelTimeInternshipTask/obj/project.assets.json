@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
+      "projectUniqueName": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
       "projectName": "TravelTimeInternshipTask",
-      "projectPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
+      "projectPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj",
       "packagesPath": "C:\\Users\\P-Mac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\obj\\",
+      "outputPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\P-Mac\\AppData\\Roaming\\NuGet\\NuGet.Config",

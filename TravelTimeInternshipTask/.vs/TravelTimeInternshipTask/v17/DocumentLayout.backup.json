@@ -1,53 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\",
+  "WorkspaceRootPath": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4D7F4AB-7D7D-4944-A346-E2EDC48929A2}|Tests\\Tests.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\tests\\regiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4D7F4AB-7D7D-4944-A346-E2EDC48929A2}|Tests\\Tests.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\tests\\regiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4D7F4AB-7D7D-4944-A346-E2EDC48929A2}|Tests\\Tests.csproj|solutionrelative:tests\\regiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\utils\\ioutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\utils\\ioutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\utils\\ioutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\regionwithlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\regionwithlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\models\\regionwithlocations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TravelTimeInternshipTask\\bin\\Debug\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TravelTimeInternshipTask\\bin\\Debug\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\repos\\traveltimeinternshiptask\\traveltimeinternshiptask\\regions.json||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|c:\\users\\p-mac\\source\\traveltime\\traveltime\\traveltimeinternshiptask\\traveltimeinternshiptask\\regions.json||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CF2414FD-3C13-40F4-91EA-7A1795DDBCA1}|TravelTimeInternshipTask\\TravelTimeInternshipTask.csproj|solutionrelative:traveltimeinternshiptask\\regions.json||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -64,157 +62,146 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegionTests.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\RegionTests.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\RegionTests.cs",
               "RelativeDocumentMoniker": "Tests\\RegionTests.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\Tests\\RegionTests.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\Tests\\RegionTests.cs",
               "RelativeToolTip": "Tests\\RegionTests.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T14:04:24.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "output.json",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
               "RelativeToolTip": "TravelTimeInternshipTask\\bin\\Debug\\net8.0\\output.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:48:25.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:48:25.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "RegionWithLocations.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
               "RelativeToolTip": "TravelTimeInternshipTask\\Models\\RegionWithLocations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:37:28.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:37:28.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "regions.json",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\regions.json",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
               "RelativeToolTip": "TravelTimeInternshipTask\\regions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:32:38.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:32:38.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "locations.json",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\locations.json",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\locations.json",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\locations.json",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\locations.json",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\locations.json",
               "RelativeToolTip": "TravelTimeInternshipTask\\locations.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:32:24.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:32:24.394Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "regions.json",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\regions.json",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\regions.json",
               "RelativeToolTip": "TravelTimeInternshipTask\\regions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:31:50.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:31:50.49Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "regions.json",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json",
-              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\bin\\Debug\\regions.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json",
               "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json",
-              "RelativeToolTip": "TravelTimeInternshipTask\\bin\\Debug\\regions.json",
+              "RelativeToolTip": "..\\..\\..\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\regions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:28:30.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:28:30.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "locations.json",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json",
-              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\bin\\Debug\\locations.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json",
               "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json",
-              "RelativeToolTip": "TravelTimeInternshipTask\\bin\\Debug\\locations.json",
+              "RelativeToolTip": "..\\..\\..\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\bin\\Debug\\locations.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:28:06.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:28:06.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "IOUtils.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Utils\\IOUtils.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Utils\\IOUtils.cs",
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Utils\\IOUtils.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Utils\\IOUtils.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Utils\\IOUtils.cs",
               "RelativeToolTip": "TravelTimeInternshipTask\\Utils\\IOUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:06:20.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Location.cs",
-              "RelativeToolTip": "TravelTimeInternshipTask\\Models\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:05:52.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Region.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Region.cs",
-              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Models\\Region.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Region.cs",
-              "RelativeToolTip": "TravelTimeInternshipTask\\Models\\Region.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:58:03.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:06:20.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Program.cs",
-              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Program.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Program.cs",
-              "RelativeToolTip": "TravelTimeInternshipTask\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Location.cs",
+              "RelativeToolTip": "TravelTimeInternshipTask\\Models\\Location.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:55:43.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:05:52.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Region.cs",
+              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Models\\Region.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Models\\Region.cs",
+              "RelativeToolTip": "TravelTimeInternshipTask\\Models\\Region.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAC8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:58:03.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Program.cs",
+              "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Program.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Program.cs",
+              "RelativeToolTip": "TravelTimeInternshipTask\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T09:55:43.401Z"
             }
           ]
         }
