@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "location1",
+    "Coordinates": [ 30.0, 50.0 ]
+  },
+  {
+    "Name": "location2",
+    "Coordinates": [ 31.0, 51.0 ]
+  },
+  {
+    "Name": "location3",
+    "Coordinates": [ 32.0, 52.0 ]
+  }
+]
