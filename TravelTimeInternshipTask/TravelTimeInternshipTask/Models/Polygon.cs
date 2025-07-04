@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace TravelTimeInternshipTask.Models
+﻿namespace TravelTimeInternshipTask.Models
 {
     public class Polygon
     {
@@ -43,6 +41,7 @@ namespace TravelTimeInternshipTask.Models
                 }
 
                 // | checks whether coordinate is between Y coordinates | checks what x should be to intersect the line if the x greater than initial x then it can intersect |
+                // I have removed +0.000001 which was incorrect way to handle division by zero cases, but having (c1.Y > coordinate.Y) != (c2.Y > coordinate.Y) condition prevents from such cases 
                 if (((c1.Y > coordinate.Y) != (c2.Y > coordinate.Y)) && (coordinate.X < (c2.X - c1.X) * (coordinate.Y - c1.Y) / (c2.Y - c1.Y) + c1.X))
                 {
                     inside = !inside; // in total if the number of intersection is odd (which means that the coordinate is inside of polygon) than inside variable will be true 
