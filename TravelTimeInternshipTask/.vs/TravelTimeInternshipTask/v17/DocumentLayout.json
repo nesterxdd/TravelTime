@@ -75,8 +75,7 @@
               "RelativeToolTip": "TravelTimeInternshipTask\\output.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T15:49:18.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T15:49:18.183Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "TravelTimeInternshipTask\\regions.json",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T13:32:38.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:32:38.117Z"
             },
             {
               "$type": "Document",
@@ -173,8 +171,7 @@
               "RelativeToolTip": "TravelTimeInternshipTask\\Utils\\IOUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:06:20.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T13:06:20.587Z"
             },
             {
               "$type": "Document",
@@ -208,7 +205,7 @@
               "RelativeDocumentMoniker": "TravelTimeInternshipTask\\Program.cs",
               "ToolTip": "C:\\Users\\P-Mac\\source\\TravelTime\\TravelTime\\TravelTimeInternshipTask\\TravelTimeInternshipTask\\Program.cs",
               "RelativeToolTip": "TravelTimeInternshipTask\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T09:55:43.401Z",
               "EditorCaption": ""
