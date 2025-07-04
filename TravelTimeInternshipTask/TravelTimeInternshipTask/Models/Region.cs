@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace TravelTimeInternshipTask.Models
 {
@@ -34,6 +36,7 @@ namespace TravelTimeInternshipTask.Models
             }
         }
 
+        //old method
         //public bool IsInRegion(Location location)
         //{
         //    for (int i = 0; i < Coordinates.Count; i++)
@@ -59,9 +62,13 @@ namespace TravelTimeInternshipTask.Models
         //        }
         //    }
         //    return false;
-
         //}
 
+        /// <summary>
+        /// Checks if the location is inside of the region (inside one of the polygon of region)
+        /// </summary>
+        /// <param name="location">location parameter</param>
+        /// <returns>Whether location is inside of a region</returns>
         public bool IsInRegion(Location location)
         {
             Coordinate coordinate = location.Coordinates;
@@ -69,10 +76,9 @@ namespace TravelTimeInternshipTask.Models
             {
                 return false;
             }
-               
-            return Coordinates.Any(polygon => polygon.ContainsPoint(coordinate));
+            
+            //loop through all of the polygons of the region and check whether the point is inside of any
+            return Coordinates.Any(polygon => polygon.ContainsCoordinate(coordinate));
         }
-
-
     }
 }

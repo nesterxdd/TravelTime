@@ -11,6 +11,11 @@ namespace TravelTimeInternshipTask
             string? locationsFile = null;
             string? outputFile = null;
 
+            //used for debugging
+            //string regionsFile = "regions.json";
+            //string locationsFile = "locations.json";
+            //string outputFile = "output.json";
+
             foreach (var arg in args)
             {
                 if (arg.StartsWith("--regions="))
