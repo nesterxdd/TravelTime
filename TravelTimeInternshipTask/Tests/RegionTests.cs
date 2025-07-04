@@ -1,33 +1,32 @@
-using System.Collections.Generic;
 using TravelTimeInternshipTask.Models;
-using Xunit;
 
 namespace TravelTimeInternshipTask.Tests
 {
     public class ProgramEdgeCasesTests
     {
-        private readonly List<List<List<double>>> squarePolygon = new()
+        private readonly List<Polygon> squarePolygons = new List<Polygon>
         {
-            new List<List<double>>
+            new Polygon(new List<Coordinate>
             {
-                new List<double>{0, 0},
-                new List<double>{0, 10},
-                new List<double>{10, 10},
-                new List<double>{10, 0},
-                new List<double>{0, 0} // Closing polygon
-            }
+                new Coordinate(0, 0),
+                new Coordinate(0, 10),
+                new Coordinate(10, 10),
+                new Coordinate(10, 0),
+                new Coordinate(0, 0) 
+            })
         };
 
         private Region CreateSquareRegion()
         {
-            return new Region("SquareRegion", squarePolygon);
+            Region region = new Region("SquareRegion", squarePolygons);
+            return region;
         }
 
         [Fact]
         public void LocationOnVertexIsConsideredInside()
         {
-            var region = CreateSquareRegion();
-            var location = new Location("VertexPoint", new List<double> { 0, 0 });
+            Region region = CreateSquareRegion();
+            Location location = new Location("VertexPoint", new Coordinate(0, 0));
 
             bool result = region.IsInRegion(location);
 
@@ -37,20 +36,19 @@ namespace TravelTimeInternshipTask.Tests
         [Fact]
         public void LocationOnEdgeIsConsideredInsideOrFalse()
         {
-            var region = CreateSquareRegion();
-            var location = new Location("EdgePoint", new List<double> { 0, 5 });
+            Region region = CreateSquareRegion();
+            Location location = new Location("EdgePoint", new Coordinate(0, 5));
 
             bool result = region.IsInRegion(location);
 
-
-            Assert.True(result == true);
+            Assert.True(result);
         }
 
         [Fact]
         public void LocationOutsidePolygonIsConsideredOutside()
         {
-            var region = CreateSquareRegion();
-            var location = new Location("OutsidePoint", new List<double> { -1, 5 });
+            Region region = CreateSquareRegion();
+            Location location = new Location("OutsidePoint", new Coordinate(-1, 5));
 
             bool result = region.IsInRegion(location);
 
@@ -60,12 +58,38 @@ namespace TravelTimeInternshipTask.Tests
         [Fact]
         public void LocationInsidePolygonIsConsideredInside()
         {
-            var region = CreateSquareRegion();
-            var location = new Location("InsidePoint", new List<double> { 5, 5 });
+            Region region = CreateSquareRegion();
+            Location location = new Location("InsidePoint", new Coordinate(5, 5));
 
             bool result = region.IsInRegion(location);
 
             Assert.True(result);
         }
+
+        [Fact]
+        public void LocationOnHorizontalEdgeIsConsideredInside()
+        {
+            Region region = CreateSquareRegion();
+            Location location = new Location("HorizontalEdge", new Coordinate(5, 0));
+
+            bool result = region.IsInRegion(location);
+
+            Assert.True(result);
+        }
+
+        [Fact]
+        public void LocationOnVerticalEdgeIsConsideredInside()
+        {
+            Region region = CreateSquareRegion();
+            Location location = new Location("VerticalEdge", new Coordinate(0, 5));
+
+            bool result = region.IsInRegion(location);
+
+            Assert.True(result);
+        }
+
+
+
+
     }
 }

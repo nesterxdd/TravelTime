@@ -10,6 +10,13 @@ namespace TravelTimeInternshipTask.Utils
 {
     public static class IOUtils
     {
+        /// <summary>
+        /// Reads data from json file and returns Lists with regions and locations
+        /// </summary>
+        /// <param name="regionJsonFile">json file with regions</param>
+        /// <param name="locationJsonFile">json file with locations</param>
+        /// <returns>Filled lists with data from json files</returns>
+        /// <exception cref="FileNotFoundException">Some file was not found</exception>
         public static (List<Region> Regions, List<Location> Locations) ReadFromJson(string regionJsonFile, string locationJsonFile)
         {
             if (!File.Exists(regionJsonFile))

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TravelTimeInternshipTask.Models
+﻿namespace TravelTimeInternshipTask.Models
 {
     public class RegionWithLocations
     {
-        public string Region { get; set; } = string.Empty;
-        public List<string> MatchedLocations { get; set; } 
+        public string Region { get; }
+        private List<string> MatchedLocations;
 
         public RegionWithLocations(string Region, List<string> MatchedLocations)
         {
@@ -18,6 +12,7 @@ namespace TravelTimeInternshipTask.Models
         }
         public RegionWithLocations()
         {
+            Region = string.Empty;
             MatchedLocations = new List<string>();
         }
 
