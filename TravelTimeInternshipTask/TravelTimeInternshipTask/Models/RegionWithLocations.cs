@@ -1,18 +1,16 @@
+﻿using Newtonsoft.Json;
+
 namespace TravelTimeInternshipTask.Models;
 
 public class RegionWithLocations
 {
-    public string Region { get; set; } = string.Empty;
+    public string Region { get; }
     public List<string> MatchedLocations { get; set; }
 
-    public RegionWithLocations(string Region, List<string> MatchedLocations)
+    public RegionWithLocations(string region, List<string> matchedLocations)
     {
-        this.Region = Region;
-        this.MatchedLocations = MatchedLocations;
-    }
-    public RegionWithLocations()
-    {
-        MatchedLocations = new List<string>();
+        Region = region;
+        MatchedLocations = matchedLocations;
     }
 
     public void AddLocation(string location)
@@ -24,5 +22,3 @@ public class RegionWithLocations
     }
 
 }
-
-

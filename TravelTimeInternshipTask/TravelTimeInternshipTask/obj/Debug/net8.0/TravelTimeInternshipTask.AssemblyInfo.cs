@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelTimeInternshipTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b0e136daef1576b47cce056ad80b0e6e1c6bfeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d7143458b32858f4addc097f97f5d85654aadcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelTimeInternshipTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelTimeInternshipTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

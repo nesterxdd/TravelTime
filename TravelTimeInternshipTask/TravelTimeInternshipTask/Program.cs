@@ -1,5 +1,4 @@
-﻿using System;
-using TravelTimeInternshipTask.Models;
+﻿using TravelTimeInternshipTask.Models;
 using TravelTimeInternshipTask.Utils;
 
 namespace TravelTimeInternshipTask
@@ -8,10 +7,14 @@ namespace TravelTimeInternshipTask
     {
         static void Main(string[] args)
         {
+            string? regionsFile = null;
+            string? locationsFile = null;
+            string? outputFile = null;
 
-            string regionsFile = null;
-            string locationsFile = null;
-            string outputFile = null;
+            //used for debugging
+            //string regionsFile = "regions.json";
+            //string locationsFile = "locations.json";
+            //string outputFile = "output.json";
 
             foreach (var arg in args)
             {
@@ -37,46 +40,13 @@ namespace TravelTimeInternshipTask
 
                 (regions, locations) = IOUtils.ReadFromJson(regionsFile, locationsFile);
 
-                List<RegionWithLocations> regionsWithLocation = GetRegionsWithLocations(regions, locations);
+                List<RegionWithLocations> regionsWithLocation = RegionsUtils.GetRegionsWithLocations(regions, locations);
                 IOUtils.WriteToJson(outputFile, regionsWithLocation);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Unexpected error: {ex.Message}");
             }
-
-         
-        }
-
-        public static List<RegionWithLocations> GetRegionsWithLocations(List<Region> regions, List<Location> locations)
-        {
-            List<RegionWithLocations> result = new List<RegionWithLocations>();
-            foreach (Region region in regions)
-            {
-                foreach (Location location in locations)
-                {
-                    if (region.IsInRegion(location))
-                    {
-                        region.AddLocation(location);
-                        RegionWithLocations? existed = result.FirstOrDefault(r => r.Region == region.Name);
-                        if (existed != null)
-                        {
-                            existed.MatchedLocations.Add(location.Name);
-                        }
-                        else
-                        {
-                            RegionWithLocations temp = new RegionWithLocations();
-                            temp.Region = region.Name;
-                            temp.MatchedLocations.Add(location.Name);
-                            result.Add(temp);
-                        }
-
-                    }
-                }
-            }
-            return result;
         }
     }
-
-
 }
